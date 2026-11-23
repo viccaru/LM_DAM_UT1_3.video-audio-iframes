@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejemplo de uso de incrustación de páginas, audio, video y etiquetas meta en HTML5">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:title" content="Uso de objetos multimedia para módulo Lenguaje de Marcas - IES Juan Bosco">
+    
+    <title>Etiquetas video, audio e iframes</title>
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+</head>
+<body>
+    
+    <h2>Etiqueta video</h2>
+    <video width="600" height="400" controls poster="video/image.jpg">
+        <source src="video/Publicar20s.mp4" type="video/mp4">
+        <source src="video/Publicar20s.webm" type="video/webm">
+        <source src="video/Publicar20s.ogv" type="video/ogg">
+        Your browser does not support the video element
+    </video>
+
+    <h2>Etiqueta audio</h2>
+    <audio controls>
+        <source src="audio/audio.mp3" type="audio/mpeg">
+        <source src="audio/audio.ogg" type="audio/ogg">
+        <source src="audio/audio.m4a" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Noticias El País</h2>
+    <iframe src="https://elpais.com/" height="400" frameborder="0"></iframe>
+    
+    <h2>Video IES El Bosco</h2>
+    <iframe width="420" height="235" src="https://www.youtube.com/embed/ohx58T4Ev4E?si=cWGFKhVO_sitgrsO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Dirección en Maps</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.442200577104!2d-3.2244886885902337!3d39.39150071728083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69af036cec6af9%3A0x3cb32e283081ecee!2sIES%20Juan%20Bosco!5e0!3m2!1ses!2ses!4v1795440104986!5m2!1ses!2ses" width="450" height="335" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</body>
+</html>
